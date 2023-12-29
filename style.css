@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0 1.5rem;
+}
+.main_container {
+    display: flex;
+    padding: 1.6rem 1.6rem;
+    max-width: 25rem;
+    background-color: hsl(215,24%,14%);
+    border-radius: 23px;
+}
+.main_section {
+    display: flex;
+    flex-direction: column;
+}
+.star_icon {
+    background-color: hsl(210,19%,18%);
+    padding: .7rem;
+    border-radius: 50%;
+    max-width: 11%;
+}
+.main_section h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 1rem;
+    font-size: 1.35rem;
+}
+.main_section p {
+    color: hsl(216, 12%, 54%);
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.rating_options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 1.3rem;
+    margin-bottom: .2rem;
+}
+.btn {
+    background-color: hsl(210,19%,18%);
+    padding: .6rem .9rem;
+    border-radius: 50%;
+    color: hsl(216, 12%, 54%);
+    font-size: .8rem;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;  
+}
+.btn:focus {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+#submitBtn {
+    font-family: 'Overpass', sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background: hsl(25, 97%, 53%);
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 100%);
+    padding: .6rem 1rem;
+    margin-top: 1.4rem;
+}
+#submitBtn:hover {
+    background-color: hsl(216, 12%, 54%);
+}
+.thank_you {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thank_you img {
+    max-width: 100%;
+}
+.thank_you h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-top: 1.4rem;
+    font-size: 1.5rem;
+}
+.first_p {
+    background-color: hsl(210,19%,18%);
+    padding: .35rem 1.3rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    font-size: .925rem;
+    color: hsl(25, 97%, 53%);
+}
+.thank_you p:last-child {
+    text-align: center;
+    color:hsl(216, 12%, 54%);
+    margin-top: 1rem;
+}
+.hidden {
+    display: none;
+}
